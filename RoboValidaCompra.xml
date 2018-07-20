@@ -1,0 +1,16 @@
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" -->
+
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Teste DBServer" verbose="0">
+	<test name="Validando Compra Produto">
+		<classes>
+			<class name="com.automationpractice.test.AutomationTest">
+				<methods>				
+					<!-- <include name="CasoDeTest01" /> -->
+					<include name="ValidaCompra" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

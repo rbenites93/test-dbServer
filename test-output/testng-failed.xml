@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Teste DBServer]">
+  <test thread-count="5" verbose="0" name="Validando Compra Produto(failed)">
+    <classes>
+      <class name="com.automationpractice.test.AutomationTest">
+        <methods>
+          <include name="ValidaCompra"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.AutomationTest -->
+    </classes>
+  </test> <!-- Validando Compra Produto(failed) -->
+</suite> <!-- Failed suite [Teste DBServer] -->
