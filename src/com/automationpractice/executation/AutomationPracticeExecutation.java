@@ -1,29 +1,33 @@
 package com.automationpractice.executation;
 
+import java.util.Random;
+
 import com.automationpractice.pageobject.AutomationPage;
 
 public class AutomationPracticeExecutation {
 	
+	String url = "http://www.automationpractice.com/";
+	Random rand = new Random();
+	AutomationPage site = new AutomationPage(url);
+	String emailContaNOva = "testeDbserver"+rand.nextInt(9999)+"@teste.com.br";
 		
-		public void eviaCompraProduto() {
-
-//			String url = "http://www.automationpractice.com/";
-			String url = "http://www.google.com/";
-			
+		public void enviaCompraProduto() {
 		
-			AutomationPage envia = new AutomationPage(url);
-
+			site.Acessar();
+			site.PesquisaProduto();
+			site.AdicionaProdutoCarrinho();
+			site.validaProdutoCarrinho();
+			site.checkout();
+			site.createCount(emailContaNOva);
+			site.cadastro();
+			site.validaEnderecoUsuario();
+			site.validaTermo();
+			site.validaValor();
+			site.formaPagamento();
+			site.confirmaCompra();
+			site.validaCompraSucesso();
+			site.fecharInstancia();
 			
-			envia.logar();
-			
-			
-			
-//			envia.logar();
-//			envia.loginGiss(loginGiss, senhaGiss);
-//			envia.clicaPgdasD();
-//			envia.enviaArquivoPgdasD();
-//			envia.clicaProcessar();			
-//			envia.fecharInstancia();
 
 		}
 		

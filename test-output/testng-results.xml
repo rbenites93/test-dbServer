@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Teste DBServer" duration-ms="5448" started-at="2018-07-20T17:23:33Z" finished-at="2018-07-20T17:23:38Z">
+  <suite name="Default suite" duration-ms="70682" started-at="2018-07-23T00:37:53Z" finished-at="2018-07-23T00:39:04Z">
     <groups>
     </groups>
-    <test name="Validando Compra Produto" duration-ms="5448" started-at="2018-07-20T17:23:33Z" finished-at="2018-07-20T17:23:38Z">
+    <test name="Default test" duration-ms="70682" started-at="2018-07-23T00:37:53Z" finished-at="2018-07-23T00:39:04Z">
       <class name="com.automationpractice.test.AutomationTest">
-        <test-method status="PASS" signature="ValidaCompra()[pri:0, instance:com.automationpractice.test.AutomationTest@7823a2f9]" name="ValidaCompra" duration-ms="5427" started-at="2018-07-20T17:23:33Z" finished-at="2018-07-20T17:23:38Z">
+        <test-method status="PASS" signature="ValidaCompra()[pri:0, instance:com.automationpractice.test.AutomationTest@3012646b]" name="ValidaCompra" duration-ms="70588" started-at="2018-07-22T21:37:53Z" finished-at="2018-07-22T21:39:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidaCompra -->
       </class> <!-- com.automationpractice.test.AutomationTest -->
-    </test> <!-- Validando Compra Produto -->
-  </suite> <!-- Teste DBServer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
